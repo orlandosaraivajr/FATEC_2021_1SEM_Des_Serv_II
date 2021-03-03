@@ -1,0 +1,19 @@
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    font-family: 'Open Sans';
+}
+table > thead > tr {
+    background: whitesmoke;
+}
+table td {
+    padding: 5px;
+}
+
+button {
+    background: white;
+    border: 1px solid #888;
+    margin-top: 10px;
+    padding: 4px;
+    cursor:pointer;
+}

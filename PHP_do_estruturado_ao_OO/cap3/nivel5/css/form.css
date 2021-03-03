@@ -1,0 +1,26 @@
+input[readonly="1"] {
+    background:#e0e0e0;
+    border:1px solid #b0b0b0;
+}
+form {
+    display: table;
+    border: 1px solid #888;
+    width: 80%;
+    padding: 10px;
+}
+form > label, form > input, form > select {
+    float:left;
+    margin-top: 5px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+form > label {
+    clear:both;
+    width:25%;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+form > input[type="submit"] {
+    margin-left: 25%;
+    clear:both;
+}
