@@ -27,7 +27,8 @@ class ClienteController extends Controller
     public function index()
     {
         $clientes = session('clientes');
-        return view('clientes.index', compact(['clientes']));
+        $titulo = 'Laravel 2021 - Fatec Araras';
+        return view('clientes.index', compact(['clientes','titulo']));
     }
 
     /**
