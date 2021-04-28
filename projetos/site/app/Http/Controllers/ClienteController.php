@@ -28,7 +28,9 @@ class ClienteController extends Controller
     {
         $clientes = session('clientes');
         $titulo = 'Laravel 2021 - Fatec Araras';
-        return view('clientes.index', compact(['clientes','titulo']));
+        #return view('clientes.index', compact(['clientes','titulo']));
+        # return view('clientes.index', ['clientes'=>$clientes, 'titulo'=>$titulo]);
+        return view('clientes.index')->with('clientes', $clientes)->with('titulo', $titulo);
     }
 
     /**
